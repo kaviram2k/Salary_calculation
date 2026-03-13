@@ -68,3 +68,56 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# React Salary and Student Marks Calculator
+
+This is a simple React application that demonstrates basic use of **React Hooks (useState)** and **Bootstrap UI**.  
+The application contains two components:
+
+- Employee Salary Calculation
+- Student Marks Calculation
+
+---
+
+## Features
+
+### 1. Employee Salary Calculator
+- Enter employee salary
+- Tax is calculated automatically
+- Displays:
+  - Tax amount
+  - Net Salary
+
+Tax rules:
+- Salary > 50000 → 10% tax
+- Salary > 30000 → 5% tax
+- Otherwise → No tax
+
+---
+
+### 2. Student Marks Calculator
+- Enter three subject marks
+- Calculates:
+  - Total marks
+  - Average
+  - Grade
+
+Grade rules:
+- Average > 70 → A
+- Average > 60 → B
+- Average > 50 → C
+- Otherwise → F
+
+---
+
+## Technologies Used
+
+- React JS
+- JavaScript (ES6)
+- Bootstrap 5
+- HTML / CSS
+
+---
+
+## Project Structure
